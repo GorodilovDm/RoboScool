@@ -49,7 +49,8 @@ h1 {
     
     /* width: 16.875%; */
     width: 320px;
-    
+    transform: scale(0);
+    transition: 0.7s;
 }
 
 #nav a {
@@ -101,5 +102,7 @@ header>a {
         display: flex;
         justify-content: space-between;
         height: max-content;
+        transform: scale(100%);
+        transition: 0.7s;
     }
 }
