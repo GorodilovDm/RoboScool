@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    color: #ebebeb;
+    color: #fff;
     display: flex;
     flex-direction: column;
     min-height: 100%;
