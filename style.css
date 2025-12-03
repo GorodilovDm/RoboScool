@@ -11,12 +11,12 @@ html {
 }
 
 body {
-    
+
     display: flex;
     flex-direction: column;
     min-height: 100%;
     background-color: #fff;
-    
+
 }
 
 .mainContent {}
@@ -24,8 +24,10 @@ body {
 header {
     display: flex;
     padding: 1.875em 5.2%;
+    justify-content: space-between;
     align-items: center;
 }
+
 .top {
     color: #fff;
     background-color: #141024;
@@ -44,22 +46,37 @@ h1 {
 }
 
 #nav {
-    width: 300px;
-    height: 9vh;
-    font-size: 45px;
-    position: absolute;
-    right: -300px;
-    top: 0;
-    background-color: #000;
-    transition: 0.7s;
+    
+    /* width: 16.875%; */
+    width: 320px;
+    
 }
 
-a {
+#nav a {
     text-decoration: none;
     display: block;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+
 }
+
+header>a {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+
 .ddd {
     height: 100px;
 }
