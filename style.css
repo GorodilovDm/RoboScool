@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
@@ -34,7 +35,7 @@ header {
     height: 100vh;
 }
 
-h1 {
+header h2 {
     text-transform: uppercase;
     font-size: 1.875em;
     font-family: Jost;
@@ -42,26 +43,27 @@ h1 {
     font-style: Bold;
     line-height: 160%;
     letter-spacing: 0%;
-
+    width: max-content;
 }
 
 #nav {
-    
-    /* width: 16.875%; */
-    width: 320px;
+
+    /* width: 26.875%; */
+    width: 324px;
     transform: scale(0);
     transition: 0.7s;
+    display: flex;
+    gap: 40px;
 }
 
 #nav a {
-    text-decoration: none;
+
     display: block;
     text-align: center;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
     line-height: 160%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     color: #fff;
 
@@ -69,13 +71,34 @@ h1 {
 
 header>a {
     font-weight: 600;
-    font-style: SemiBold;
     font-size: 30px;
     line-height: 160%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: right;
     color: #fff;
     text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+    letter-spacing: 0;
+    width: 380px;
+}
+.top-left {
+    width: 380px;
+    padding-left: 19.791%;
+    padding-top: 24.63vh;
+}
+
+.top-left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0;
+    width: 380px;
 }
 
 .ddd {
